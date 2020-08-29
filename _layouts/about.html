@@ -1,0 +1,52 @@
+---
+layout: default
+---
+{% if site.data.authors and site.data.authors[page.author] %}
+{% assign author = site.data.authors[page.author] %}
+{% elsif site.data.authors %}
+{% assign author = site.data.authors[0] %}
+{% endif %}
+
+{% assign counter = 0 %}
+{% for post in site.posts %}
+    {% unless post.draft or post.author != author.initial %}
+        {% assign counter = counter | plus: 1 %}
+    {% endunless %}
+{% endfor %}
+
+
+<section class="author-profile" itemprop="author" itemscope itemtype="http://schema.org/Person">
+
+    {%  if author.picture %}
+    <figure class="author-image  {%  if author.cover %} has-cover  {% endif %}">
+        <div class="img image-bg" style="background-image: url({{author.picture | absolute_url }})">
+            <a class="hidden" href="{{author.picture | absolute_url }}" itemprop="image">{{author.name}}'s Picture</a>
+        </div>
+    </figure>
+    {% endif %}
+
+    <div class="author-info">
+        <h3 class="author-title" itemprop="name">{{author.name}}</h3>
+        
+        <h3 class="author-bio" itemprop="description">{{author.phone}}</h3> 
+        <h3 class="author-bio" itemprop="description">{{author.email}}</h3> 
+
+        <div class="author-meta">
+            {%  if author.phone %}<a href="tel:{{ author.phone }}" itemprop="phone" class="icon-phone">Phone</a>{% endif %}
+            {%  if author.email %}<a href="mailto:{{ author.email }}" itemprop="email" class="icon-mail">Mail</a>{% endif %}
+        </div>                                   
+    </div>                                       
+</section>                                       
+                                                 
+<main class="content" role="main">               
+    <article class="single-post">                
+                                                 
+        <section class="post-content">           
+            {{content}}                          
+        </section>
+
+    </article>
+</main>
+
+{% include photoswipe.html %}
+{% include post_scripts.html %}
