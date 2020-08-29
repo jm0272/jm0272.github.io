@@ -15,7 +15,7 @@ language:         "en" # default language of the blog. Language codes: http://ww
 baseurl:          "" # the subpath of your site, e.g. /blog
 url:              "https://jm0272.github.io" # the base hostname & protocol for your site. Have a look at robots.txt as well!
 permalink:        /blog/:categories/:title
-cover:            /assets/banner_lake.JPG
+cover:            /assets/banner_lake.jpg
 disqus_shortname: ""
 
 # Build settings
