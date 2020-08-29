@@ -1,54 +1,99 @@
 jdecent:
-    profile: "Integer sit amet libero non sapien sagittis dapibus. Phasellus gravida quam ac nisl finibus dictum. Pellentesque vel orci et nisi pretium tincidunt nec a diam. Vivamus et leo eu lorem congue pellentesque id sed tortor. Nulla et nibh neque. Sed ut fermentum lectus, id rhoncus erat."
+    profile: " 트렌드를 쫓아가는 6년차 프론트엔드 개발자입니다. 여러 금융 회사에서 개인뱅킹, 대출 및 리스신청 등 대고객 서비스를 주로 개발했습니다. SPA 개발에 관심이 많으며 빠르게 변화하는 프론트엔드 시장의 변화를 항상 주시하고 있습니다. 신입시절 로우레벨의 언어인 C언어부터 시작해 현재 Javascript까지, 프로그래밍 언어 자체를 이해하려 노력하고 넓은 스펙트럼을 가지되, 전문적인 부분은 더욱 깊게 파고들기 위해 노력하고 있습니다."
+    careers:
+        - "아이티엑스엠투엠 (2015.04 ~ 2016.12)"
+        - "뱅크웨어글로벌 프리랜서 (2017.01 ~ 2017.06)"
+        - "뱅크웨어글로벌(2017.07 ~ 재직중)"
+        - "총 5년 4개월"
     skills:
-        - "C#, ASP.NET MVC"
-        - "XAML, WPF, LINQ, Silverlight"
-        - "JavaScript, jQuery, HTML5, CSS, LESS"
-        - "Web Services, Active Directory, Windows 10, Windows Phone Apps"
+        - "JavaScript, jQuery, HTML5"
+        - "AngularJS, Ionic Framework"
+        - "JAVA, JSP, Spring"
+        - "C, Linux"
+        - "svn, JIRA, Confluence, Redmine"
     education:
-        - time:             "2009 - 2011"
-          location:         "University of Someplace"
-          description:      "BSc in Applied Computer Science"
-    employment:
-        - time:             "02.2015 - 11.2017"
-          location:         "Stuttgart"
-          company:          "South-West Company"
-          position:         ".NET Developer"
-          responsibilities:
-            - "Support of web applications"
-            - "Training of students"
-            - "Flirting with the secretary"
-        - time:             "08.2011 - 02.2015"
-          location:         "Berlin"
-          company:          "Local-B Company"
-          position:         "Junior Developer"
-          responsibilities:
-            - "Developed jQuery plugins"
-            - "Had a nice place on the window"
-            - "Dreamed about beeing a senior developer"
+        - time:             "2008.03 - 2015.02"
+          location:         "안동대학교"
+          description:      "컴퓨터공학"
     projects:
-        - time:             "5 months in 2017"
-          team:             "Team of 2"
-          title:            "Web Project"
-          technologies:     "C#, JavaScript, HTML5, CSS"
-          responsibilities:
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet finibus libero sed ullamcorper. Donec."
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed."
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sodales ligula sit amet nisl pellentesque, eu cursus neque."
-            # - <img src="assets/jwillmer.jpg"></img>
-        - time:             "9 months in 2016"
-          team:             "Team of 6"
-          title:            "Android App"
-          technologies:     "Mono, .NET"
-          responsibilities:
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo, urna id hendrerit interdum, metus dui ultricies massa."
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis leo nec lacus aliy rutrum."
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum."
-        - time:             "3 months in 2015"
-          team:             "Team of 2"
-          title:            "Software Evaluation"
-          technologies:     "Recruting, .NET"
-          responsibilities:
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo, urna id hendrerit interdum, metus dui ultricies massa."
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis leo nec lacus aliy rutrum."
-            - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum."
+        - time:   "2017.01 ~ 2017.06"
+          name:   "현대캐피탈 디지털오토 자동차금융"
+          skill:  "JavaScript, AngularJS, Ionic, JQuery"
+          works:
+            - "자동차 리스 신청, 승계, 만기연장 신청을 위한 고객 웹 사이트 개발"
+
+        - time:   "2017.07 ~ 2018.06"
+          name:   "아프로파이낸셜 통합채널 구축"
+          skill:  "JavaScript, AngularJS, Ionic"
+          works:
+            - "신규대출, 추가/재대출, 만기연장의 대출프로세스 개발"
+            - "대출관리 개발"
+
+        - time:   "2018.08 ~ 2019.02"
+          name:   "KB카드 자동차금융"
+          skill:  "JavaScript, JQuery, JAVA, JSP"
+          works:
+            - "중고차 다이렉트 할부 신청 개발"
+
+        - time:   "2019.03 ~ 2019.10"
+          name:   "대구은행 개인뱅킹 리뉴얼 개발"
+          skill:  "JavaScript, JQuery, JAVA, JSP"
+          works:
+            - "계좌 조회 및 거래내역 조회 개발"
+            - "계좌 관리업무 개발"
+
+        - time:   "2019.11 ~ 2020.03"
+          name:   "KB카드 내구재리스"
+          skill:  "JavaScript, JQuery, JAVA, JSP"
+          works:
+            - "제휴사들의 내구재 리스 신청고객을 관리 할 수 있는 제휴사 포털 사이트 개발"
+
+        - time:   "2020.05 ~ "
+          name:   "현대커머셜 법인 자동차대출"
+          skill:  "JavaScript, JQuery, JAVA, JSP, Spring"
+          works:
+            - "법인 고객의 신차, 중고차, 재고금융 대출 업무 개발"
+
+    # employment:
+    #     - time:             "02.2015 - 11.2017"
+    #       location:         "Stuttgart"
+    #       company:          "South-West Company"
+    #       position:         ".NET Developer"
+    #       responsibilities:
+    #         - "Support of web applications"
+    #         - "Training of students"
+    #         - "Flirting with the secretary"
+    #     - time:             "08.2011 - 02.2015"
+    #       location:         "Berlin"
+    #       company:          "Local-B Company"
+    #       position:         "Junior Developer"
+    #       responsibilities:
+    #         - "Developed jQuery plugins"
+    #         - "Had a nice place on the window"
+    #         - "Dreamed about beeing a senior developer"
+    # projects:
+    #     - time:             "5 months in 2017"
+    #       team:             "Team of 2"
+    #       title:            "Web Project"
+    #       technologies:     "C#, JavaScript, HTML5, CSS"
+    #       responsibilities:
+    #         - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet finibus libero sed ullamcorper. Donec."
+    #         - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed."
+    #         - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sodales ligula sit amet nisl pellentesque, eu cursus neque."
+    #         # - <img src="assets/jwillmer.jpg"></img>
+    #     - time:             "9 months in 2016"
+    #       team:             "Team of 6"
+    #       title:            "Android App"
+    #       technologies:     "Mono, .NET"
+    #       responsibilities:
+    #         - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo, urna id hendrerit interdum, metus dui ultricies massa."
+    #         - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis leo nec lacus aliy rutrum."
+    #         - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum."
+    #     - time:             "3 months in 2015"
+    #       team:             "Team of 2"
+    #       title:            "Software Evaluation"
+    #       technologies:     "Recruting, .NET"
+    #       responsibilities:
+    #         - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo, urna id hendrerit interdum, metus dui ultricies massa."
+    #         - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis leo nec lacus aliy rutrum."
+    #         - "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum."

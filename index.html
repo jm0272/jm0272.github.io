@@ -14,6 +14,20 @@ excerpt:
 </div>
 
 <div class="md-card shadow">
+    <div class="title icon-office">
+        <h2>Career period</h2>
+    </div>
+    <div class="content">
+        <ul>
+            {% for career in cv.careers %}
+            <li>{{ career }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+
+<div class="md-card shadow">
     <div class="title icon-stats-bars">
         <h2>Skills</h2>
     </div>
@@ -41,20 +55,20 @@ excerpt:
     {% endfor %}
 </div>
 
-<h2 class="employment-heading">Employment History</h2>
+<h2 class="employment-heading">Project History</h2>
 
 <div class="timeline-container">
-    {% for employment in cv.employment %}
+    {% for project in cv.projects %}
     <div class="timeline-block">
         <div class="marker"></div>
-        <div class="time">{{employment.time}}</div>
+        <div class="time">{{project.time}}</div>
         <div class="timeline-content">
-            <div class="time">{{employment.time}}</div>
-            <h3>{{employment.position}}</h3>
-            <span>{{employment.company}} ({{employment.location}})</span>
+            <div class="time">{{project.time}}</div>
+            <h3>{{project.name}}</h3>
+            <span>{{project.skill}}</span>
             <ul>
-                {% for responsibility in employment.responsibilities %}
-                <li>{{responsibility}}</li>
+                {% for work in project.works %}
+                <li>{{work}}</li>
                 {% endfor %}
             </ul>
         </div>
@@ -63,7 +77,7 @@ excerpt:
 </div>
 
 
-<h2 class="project-heading">Project History</h2>
+<!-- <h2 class="project-heading">Project History</h2>
 
 {% for project in cv.projects %}
 <div class="md-card shadow project">
@@ -90,4 +104,4 @@ excerpt:
         <span class="icon-briefcase"></span>
     </div>
 </div>
-{% endfor %}
+{% endfor %} -->
